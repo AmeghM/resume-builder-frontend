@@ -82,6 +82,7 @@ function History() {
                     </h6> */}
                       <h6>Resume Number:{index + 1}</h6>
                       <button
+                        type="button"
                         className="btn btn-danger"
                         onClick={() => handleDeleteResume(item?.id)}
                       >
